@@ -46,3 +46,34 @@
     </form>
 </body>
 </html>
+
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Listas em HTML</title>
+</head>
+<body>
+    <h1>Minhas Listas</h1>
+
+    <!-- Lista Ordenada (Filmes/Séries Favoritos) -->
+    <h2>Meus Filmes/Séries Favoritos</h2>
+    <ol>
+        <li>Antes do Amanheçer</li>
+        <li>O amigo da minha amiga</li>
+        <li>2046 </li>
+    </ol>
+
+    <!-- Lista Não Ordenada (Ingredientes para Café da Manhã) -->
+    <h2>Ingredientes para um Café da Manhã Básico</h2>
+    <ul>
+        <li>Pão</li>
+        <li>Manteiga</li>
+        <li>Iogurte</li>
+        <li>Pão de queijo</li>
+        <li>Achocolatado</li>
+    </ul>
+</body>
+</html>
