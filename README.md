@@ -118,3 +118,40 @@
     <img src="https://via.placeholder.com/300x200" alt="Imagem de exemplo com texto alternativo">
 </body>
 </html>
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabela de Produtos</title>
+</head>
+<body>
+
+<h2>Tabela de Produtos Fictícios</h2>
+
+<table border="1">
+    <tr>
+        <th>Produto</th>
+        <th>Preço</th>
+        <th>Descrição</th>
+    </tr>
+    <tr>
+        <td>Ar condicionado dual inverter</td>
+        <td>R$ 1.200,00</td>
+        <td>Produto ideal para quem busca conforto e qualidade.</td>
+    </tr>
+    <tr>
+        <td>Geladeira smart</td>
+        <td>R$ 1.800,00</td>
+        <td>Produto com tecnologia avançada para facilitar o seu dia a dia.</td>
+    </tr>
+    <tr>
+        <td>Liquidificador e triturador</td>
+        <td>R$ 495,00</td>
+        <td>Produto durável e resistente, com design inovador.</td>
+    </tr>
+</table>
+
+</body>
+</html>
