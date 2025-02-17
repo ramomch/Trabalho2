@@ -94,3 +94,27 @@
     <!-- Link que abre em uma nova aba para um vídeo no YouTube -->
     <p>Assista a este vídeo interessante no YouTube: <a href="https://youtu.be/PvB0kWs2IPQ?si=zvMkqyRXRkfdmwKq"
 </html>
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página com Imagens</title>
+</head>
+<body>
+    <h1>Página com Imagens</h1>
+
+    <!-- Primeira imagem: carregada a partir de um link externo -->
+    <p>Imagem 1 - Carregada de um link externo:</p>
+    <img src="https://via.placeholder.com/300x200" alt="Imagem externa de exemplo">
+
+    <!-- Segunda imagem: carregada da mesma pasta do arquivo HTML -->
+    <p>Imagem 2 - Carregada da mesma pasta do arquivo HTML:</p>
+    <img src="imagem_local.jpg" alt="Imagem local">
+
+    <!-- Terceira imagem: com texto alternativo descritivo -->
+    <p>Imagem 3 - Com texto alternativo descritivo:</p>
+    <img src="https://via.placeholder.com/300x200" alt="Imagem de exemplo com texto alternativo">
+</body>
+</html>
