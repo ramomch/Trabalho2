@@ -77,3 +77,20 @@
     </ul>
 </body>
 </html>
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página com Links</title>
+</head>
+<body>
+    <h1>Bem-vindo à Minha Página com Links</h1>
+
+    <!-- Link para um site de livre escolha -->
+    <p>Visite o site da <a href="https://filmesclassicos.com/index.htm" target="_blank">filmesclassicos</a>
+
+    <!-- Link que abre em uma nova aba para um vídeo no YouTube -->
+    <p>Assista a este vídeo interessante no YouTube: <a href="https://youtu.be/PvB0kWs2IPQ?si=zvMkqyRXRkfdmwKq"
+</html>
