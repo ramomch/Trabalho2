@@ -229,3 +229,215 @@
 
 </body>
 </html>
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Explora Mundo - Site de Viagens</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Cabeçalho -->
+    <header>
+        <h1>Explora Mundo</h1>
+        <p>Descubra os melhores destinos para sua próxima aventura!</p>
+    </header>
+
+    <!-- Seção Principal -->
+    <section class="destaque">
+        <img src="https://via.placeholder.com/1200x400" alt="Imagem de destaque de viagem">
+        <div class="texto-promocional">
+            <h2>Viaje pelo mundo com conforto e segurança!</h2>
+            <p>Encontre pacotes exclusivos e viva experiências inesquecíveis.</p>
+            <a href="#" class="botao">Reserve Agora</a>
+        </div>
+    </section>
+
+    <!-- Galeria de Destinos -->
+    <section class="galeria">
+        <h2>Destinos Populares</h2>
+        <div class="destinos">
+            <div class="destino">
+                <img src="https://via.placeholder.com/300x200" alt="Paris">
+                <h3>Paris, França</h3>
+                <p>Conheça a Cidade Luz e seus pontos turísticos incríveis.</p>
+            </div>
+            <div class="destino">
+                <img src="https://via.placeholder.com/300x200" alt="Tóquio">
+                <h3>Tóquio, Japão</h3>
+                <p>Explore a mistura de tradição e modernidade.</p>
+            </div>
+            <div class="destino">
+                <img src="https://via.placeholder.com/300x200" alt="Nova York">
+                <h3>Nova York, EUA</h3>
+                <p>Descubra a cidade que nunca dorme.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Rodapé -->
+    <footer>
+        <p>Entre em contato conosco:</p>
+        <p>Email: contato@exploramundo.com | Telefone: (11) 1234-5678</p>
+        <p>Siga-nos nas redes sociais:</p>
+        <a href="#">Facebook</a> | 
+        <a href="#">Instagram</a> | 
+        <a href="#">Twitter</a>
+    </footer>
+</body>
+</html>
+
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f4f4f4;
+}
+
+/* Cabeçalho */
+header {
+    background-color: #2c3e50;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+}
+
+/* Seção de Destaque */
+.destaque {
+    position: relative;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.destaque img {
+    width: 100%;
+    height: auto;
+}
+
+.texto-promocional {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 20px;
+    color: #fff;
+    border-radius: 10px;
+}
+
+.texto-promocional h2 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+
+.botao {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #e67e22;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.botao:hover {
+    background-color: #d35400;
+}
+
+/* Galeria de Destinos */
+.galeria {
+    padding: 20px;
+    text-align: center;
+}
+
+.galeria h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.destinos {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.destino {
+    background-color: #fff;
+    margin: 10px;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 30%;
+    transition: transform 0.3s;
+}
+
+.destino:hover {
+    transform: scale(1.05);
+}
+
+.destino img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.destino h3 {
+    font-size: 1.5rem;
+    margin: 10px 0;
+}
+
+.destino p {
+    font-size: 1rem;
+    color: #666;
+}
+
+/* Rodapé */
+footer {
+    background-color: #2c3e50;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    margin-top: 30px;
+}
+
+footer a {
+    color: #e67e22;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
+    .destinos {
+        flex-direction: column;
+    }
+
+    .destino {
+        width: 100%;
+    }
+
+    .texto-promocional h2 {
+        font-size: 1.5rem;
+    }
+
+    .texto-promocional p {
+        font-size: 0.9rem;
+    }
+}
