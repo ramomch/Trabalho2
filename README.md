@@ -155,3 +155,77 @@
 
 </body>
 </html>
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Currículo - João Silva da Luz</title>
+</head>
+<body>
+
+    
+    <header>
+        <h1>João da Silva</h1>
+        <h2>Desenvolvedor Web Full Stack</h2>
+        <p>Email: joao.silva@example.com</p>
+        <p>Telefone: (11) 98765-4321</p>
+        <p>LinkedIn: <a href="https://www.linkedin.com/in/joaosilva">linkedin.com/in/joaosilva</a></p>
+    </header>
+
+    
+    <section>
+        <h2>Resumo Profissional</h2>
+        <p>Desenvolvedor web com 5 anos de experiência em projetos de grande escala, especializado em tecnologias front-end e back-end. Habilidade em trabalhar em equipes ágeis e entregar soluções de alta qualidade dentro do prazo.</p>
+    </section>
+
+    
+    <section>
+        <h2>Experiência Profissional</h2>
+        <article>
+            <h3>Desenvolvedor Full Stack - Empresa XYZ</h3>
+            <p><strong>Período:</strong> Janeiro 2020 - Presente</p>
+            <p><strong>Descrição:</strong> Desenvolvimento e manutenção de aplicações web utilizando React, Node.js e MongoDB. Colaboração com equipes de design e produto para criar interfaces de usuário intuitivas.</p>
+        </article>
+        <article>
+            <h3>Desenvolvedor Front-end - Empresa ABC</h3>
+            <p><strong>Período:</strong> Junho 2017 - Dezembro 2019</p>
+            <p><strong>Descrição:</strong> Implementação de designs responsivos e otimização de performance para aplicações web. Uso de HTML5, CSS3 e JavaScript para criar experiências de usuário fluidas.</p>
+        </article>
+    </section>
+
+    
+    <section>
+        <h2>Formação Acadêmica</h2>
+        <article>
+            <h3>Bacharelado em Ciência da Computação</h3>
+            <p><strong>Instituição:</strong> Universidade Federal de São Paulo (UNIFESP)</p>
+            <p><strong>Período:</strong> 2013 - 2017</p>
+        </article>
+    </section>
+
+    
+    <section>
+        <h2>Habilidades</h2>
+        <ul>
+            <li>HTML5, CSS3, JavaScript</li>
+            <li>React, Angular, Vue.js</li>
+            <li>Node.js, Express, MongoDB</li>
+            <li>Git, Docker, CI/CD</li>
+            <li>Metodologias Ágeis (Scrum, Kanban)</li>
+        </ul>
+    </section>
+
+    
+    <section>
+        <h2>Idiomas</h2>
+        <ul>
+            <li>Português - Nativo</li>
+            <li>Inglês - Avançado</li>
+            <li>Espanhol - Intermediário</li>
+        </ul>
+    </section>
+
+</body>
+</html>
