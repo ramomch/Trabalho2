@@ -441,3 +441,97 @@ footer a:hover {
         font-size: 0.9rem;
     }
 }
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Galeria de Imagens</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Galeria de Imagens</h1>
+    <img src="img/imagem1.jpg" alt="Batman e Robin">
+    <img src="img/imagem2.jpg" alt="Curtindo um som">
+    <img src="img/imagem3.jpg" alt="Pastel de queijo">
+    <div class="banner"></div>
+    <div class="galeria">
+    <img src="img/imagem1.jpg" alt="Cachorro feliz">
+    <img src="img/imagem2.jpg" alt="Paisagem montanhosa">
+    <img src="img/imagem3.jpg" alt="Café e livro">
+    <img src="img/imagem4.jpg" alt="Gato dormindo">
+    <img src="img/imagem5.jpg" alt="Praia ao entardecer">
+    <img src="img/imagem6.jpg" alt="Cidade iluminada">
+</div>
+</body>
+</html>
+img {
+    max-width: 500px;
+    height: auto;
+}
+.banner {
+    width: 800px;
+    height: 300px;
+    background-image: url('img/banner.jpg');
+    background-size: cover;
+    background-position: center;
+}
+img {
+    max-width: 500px;
+    height: auto;
+    transition: 0.3s ease-in-out;
+}
+
+img:hover {
+    transform: scale(1.1);
+}
+.galeria {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+}
+
+.galeria img {
+    width: 100%;
+    height: auto;
+}
+
+@media (max-width: 600px) {
+    .galeria {
+
+        img {
+    max-width: 500px;
+    height: auto;
+}
+.banner {
+    width: 800px;
+    height: 300px;
+    background-image: url('img/banner.jpg');
+    background-size: cover;
+    background-position: center;
+}
+img {
+    max-width: 500px;
+    height: auto;
+    transition: 0.3s ease-in-out;
+}
+
+img:hover {
+    transform: scale(1.1);
+}
+.galeria {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+}
+
+.galeria img {
+    width: 100%;
+    height: auto;
+}
+
+@media (max-width: 600px) {
+    .galeria {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
