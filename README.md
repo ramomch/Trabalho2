@@ -535,3 +535,37 @@ img:hover {
         grid-template-columns: repeat(2, 1fr);
     }
 }
+
+// Exercício 1: Declarando Variáveis
+let nome = "Seu Nome"; // Substitua "Seu Nome" pelo seu nome real
+console.log("Exercício 1:");
+console.log(nome); // Exibe o valor da variável nome
+
+// Exercício 2: Alterando o Valor da Variável
+let idade = 25; // Valor inicial
+console.log("\nExercício 2:");
+console.log("Idade inicial:", idade); // Exibe o valor inicial
+idade = 30; // Alterando o valor
+console.log("Nova idade:", idade); // Exibe o novo valor
+
+// Exercício 3: Usando const
+const pi = 3.14;
+console.log("\nExercício 3:");
+console.log("Valor de pi:", pi); // Exibe o valor de pi
+// pi = 3.1415; // Descomente esta linha para ver o erro (não é possível reatribuir const)
+
+// Questão 4: Operador de Subtração
+let a = 15;
+let b = 5;
+let diferenca = a - b;
+console.log("\nQuestão 4:");
+console.log("Diferença entre a e b:", diferenca); // Exibe o resultado da subtração
+
+// Exercício 5: Variáveis e Escopo
+console.log("\nExercício 5:");
+function exemploEscopo() {
+    let x = 10;
+    console.log("Dentro da função, x =", x); // Funciona, pois x está no escopo da função
+}
+exemploEscopo();
+// console.log(x); // Descomente esta linha para ver o erro (x não está definido fora da função)
