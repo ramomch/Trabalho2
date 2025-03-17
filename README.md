@@ -569,3 +569,33 @@ function exemploEscopo() {
 }
 exemploEscopo();
 // console.log(x); // Descomente esta linha para ver o erro (x não está definido fora da função)
+
+// Questão 1: Operador de Atribuição
+let a = 10; // Atribui o valor 10 à variável a
+a += 5; // Adiciona 5 ao valor de a
+console.log("Questão 1:");
+console.log("Valor final de a:", a); // Exibe o valor final de a
+
+// Questão 2: Operador de Comparação
+let x = 10;
+let y = 20;
+console.log("\nQuestão 2:");
+console.log("x é igual a y?", x == y); // Verifica se x é igual a y e exibe o resultado
+
+// Questão 3: Operador Lógico
+let boolA = true;
+let boolB = false;
+console.log("\nQuestão 3:");
+console.log("Ambas as variáveis são verdadeiras?", boolA && boolB); // Verifica se ambas são verdadeiras
+
+// Questão 4: Operador Ternário
+let idade = 20; // Atribui um valor à variável idade
+let resultado = idade >= 18 ? "Maior de idade" : "Menor de idade"; // Usa o operador ternário
+console.log("\nQuestão 4:");
+console.log(resultado); // Exibe o resultado
+
+// Questão 5: Operador de Incremento
+let contador = 0; // Atribui o valor 0 à variável contador
+contador++; // Incrementa o valor de contador em 1
+console.log("\nQuestão 5:");
+console.log("Valor de contador após incremento:", contador); // Exibe o valor de contador
